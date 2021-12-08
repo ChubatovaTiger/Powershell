@@ -2,7 +2,7 @@
 
     Param(
 
-    [Switch]$Color
+    [bool]$Color
 
     )
 
@@ -12,7 +12,7 @@ if($Color)
 
     {
 
-        Write-Host "Hi from false"
+        Write-Host "Hi from true"
 
     }
 
@@ -20,7 +20,7 @@ elseif($Color)
 
     {
 
-        Write-Host "Hi from true" -ForegroundColor Green
+        Write-Host "Hi from false" -ForegroundColor Green
 
     }
 
