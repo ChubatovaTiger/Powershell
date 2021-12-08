@@ -2,15 +2,13 @@
 
     Param(
 
-    [Parameter(Mandatory=$false)]
-
     [Switch]$Color
 
     )
 
  
 
-if($Color -eq $false)
+if($Color)
 
     {
 
@@ -18,7 +16,7 @@ if($Color -eq $false)
 
     }
 
-elseif($Color -eq $true)
+elseif($Color)
 
     {
 
