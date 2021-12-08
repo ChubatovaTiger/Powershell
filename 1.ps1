@@ -2,7 +2,7 @@
 
     Param(
 
-    [bool]$Color
+    [switch]$Color
 
     )
 
